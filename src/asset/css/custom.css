@@ -1,0 +1,374 @@
+/* Banner part start from hare */
+.topFixedBanner{
+    background-image: url("../image/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 12rem;
+}
+.topTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 48px;
+}
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+}
+/* Services part start from hare */
+.serviceMainTitle{
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.serviceName{
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.serviceDescription{
+    color: #373737;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.serviceCard{
+    margin: 5px 5px 5px 5px;
+    height: 20rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.serviceCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+.ServiceLogo{
+    width: 120px;
+    height: 120px;
+}
+/* NavBar part start from hare */
+.navTitle{
+    font-family: 'Montserreat',sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none !important;
+}
+
+.navTitleScroll{
+    font-family: 'Montserreat',sans-serif;
+    color: #0073E6 !important;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none !important;
+}
+.navBackground{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00,00,00,0.0) !important;
+}
+.navBackgroundScroll{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.5);
+}
+.navItem{
+    text-decoration: none !important;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#ffffff ;
+}
+.navItemScroll{
+    text-decoration: none !important;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#2B2B2B !important;
+}
+/* Analysis part start from hare */
+.des{
+    font-weight: 400;
+    color:#2B2B2B;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+}
+/* Summary part start from hare */
+.SummarySection{
+    margin-top: 5rem;
+}
+.SummaryBanner{
+    background-image: url("../image/banner.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SummaryBannerOverlay{
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+/* Summary counting numbers part start from hare */
+.countNumber{
+    color: #ffffff;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.countSection{
+    margin-top: 16%;
+
+}
+/* Summary Card part start from hare */
+.cardTitle{
+    color: #2B2B2B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cardSubTitle{
+    color: #2B2B2B;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.iconBullet{
+    color: #0073E6;
+    font-size: 16px;
+
+}
+.workCard{
+    margin-top: 15%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+}
+/* Recent Projects Card part start from hare */
+.projectCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px 2px 2px 2px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.4);
+}
+.projectCard:hover{
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.4);
+}
+.projectCardTitle{
+    font-size:18px ;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 600;
+}
+.projectCardDes{
+    font-family: 'Raleway', sans-serif;
+    font-size:15px ;
+    font-weight: 400;
+}
+
+.ProjectImg{
+    width: 300px;
+    height: 220px;
+}
+/* Courses part start from hare */
+.courseImg{
+    width: 100%;
+}
+.courseTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.courseDes{
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.courseDetails{
+    color: #0073E6;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.courseDetails:hover{
+    text-decoration: none;
+}
+/* Video Card part start from hare */
+.videoCard{
+    padding: 6rem 3rem 6rem 3rem;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+
+.playBtn{
+    color: #0073E6;
+    font-size: 48px;
+    cursor:pointer;
+}
+.videoTitle{
+    color: #0073E6;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Montserreat', sans-serif;
+}
+.videoDes{
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+
+}
+/* slider part start from hare */
+.circleImg{
+    margin:0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0073E6;
+    border-radius: 50%;  /*  border circular korar jonno  */
+}
+/* Footer part start from hare */
+.footerSection{
+    margin-top: 5rem;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.socialLink{
+    text-decoration: none;
+    color:#0073E6;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight:600;
+
+}
+.socialLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+.footerLink{
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    color: #2B2B2B;
+}
+.footerLink:hover{
+    text-decoration: none;
+    color: #0073E6;
+}
+.copyRightSection{
+    padding: 20px 20px 20px 20px;
+    background-color:#0073E6;
+}
+.copyRightLink{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserreat', sans-serif;
+}
+.copyRightLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+
+}
+/* Page Banner part start from hare */
+.topFixedpage{
+    background-image: url("../image/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.toppageOverlay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 8rem;
+}
+.topContentCourse{
+    margin-top: 6rem;
+}
+
+.CoursesubTitle{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.CourseDes{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.CourseFullTitle{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.pageTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/*  part start from hare */
+.form-control:hover{
+    border-radius: 2px !important;
+    border-color: #0073E6 !important;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2) !important;
+}
+/*  part start from hare */
+.link-style{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+.link-style:hover{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.loadingAnimation{
+    width: 160px;
+    height: 160px;
+}
